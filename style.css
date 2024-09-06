@@ -55,7 +55,13 @@
 .diary-emotion-cache-49ewc9-headerBlock,
 .diary-emotion-cache-1tqqjr8-tabs,
 .diary-emotion-cache-iipem9-tabsBlock,
-.diary-emotion-cache-10xvo28-root{
+.diary-emotion-cache-10xvo28-root,
+.diary-emotion-cache-hhvvxi-mobileHeader,
+.diary-emotion-cache-tgdr7k-root,
+.diary-emotion-cache-d0iipu,
+.diary-emotion-cache-1bxwasq,
+.diary-emotion-cache-tnq82l,
+.diary-emotion-cache-ec13e4{
     background-color: 0;
     background: #0005;
 }
@@ -70,7 +76,8 @@
 .diary-emotion-cache-fyfemv:hover,
 .diary-emotion-cache-1y1fyzn-listItem-selectedListItem-listItem-selectedListItem:hover,
 .diary-emotion-cache-sy8d59:hover,
-.diary-emotion-cache-10xvo28-root:hover{
+.diary-emotion-cache-10xvo28-root:hover,
+.diary-emotion-cache-ec13e4:hover{
     background-color: 0;
     background: #0008;
 }
@@ -94,6 +101,18 @@
     border-width: 0;
 }
 
+.diary-emotion-cache-tgdr7k-root{
+    border-radius: 10px 10px 0px 0px
+}
+
+.diary-emotion-cache-hhvvxi-mobileHeader{
+    border-radius: 0px 0px 10px 10px
+}
+
+.diary-emotion-cache-tnq82l{
+    border-radius: 10px;
+}
+
 ._2flJquhj8pd5N4jrWgXxrF {
     position: fixed;
     left: 0;
@@ -111,7 +130,6 @@
 
 .diary-emotion-cache-10kh96k,
 .diary-emotion-cache-zqw19v-wrapper{
-    margin-top: 63px;
     border-radius: 10px 10px 0px 0px;
     padding: 0px 10px 0px 10px
 }

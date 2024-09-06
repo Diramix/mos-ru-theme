@@ -9,6 +9,21 @@
 // @grant        none
 // ==/UserScript==
 
+// Оптимизация под смартфон
+function updateMarginTop() {
+    var wrapperElement = document.querySelector('.diary-emotion-cache-zqw19v-wrapper');
+
+    if (wrapperElement) {
+        if (window.matchMedia("(min-width: 640px)").matches) {
+            wrapperElement.style.marginTop = '63px';
+        } else {
+            wrapperElement.style.marginTop = '0px';
+        }
+    }
+}
+
+setInterval(updateMarginTop, 1000);
+
 // ZOV
 function replaceText() {
     function walk(node) {
