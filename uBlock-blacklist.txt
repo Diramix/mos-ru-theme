@@ -1,0 +1,13 @@
+! МЭШ
+school.mos.ru##button._2Hz0dMzEnbunKqp2jJNVLf:nth-of-type(4)
+school.mos.ru##._3OPcFHW1k7-VM_Nm7EfKs-
+school.mos.ru##button._2Hz0dMzEnbunKqp2jJNVLf:nth-of-type(2)
+school.mos.ru##.MjQUP4dIDSJYpNxB0VLh._3KryFuZs-ivn6fFSnDuV-w
+school.mos.ru##._3HoLaY9Zj_R52ZHdhamZZY > ._3TLx71mATQJDSwairtat_f
+school.mos.ru##.ClixAG5VEqNYa5x7fOdz7._1eU41OqvCstkZU3AY-Tkwo._18WM3ubfdzxwWqrJhaMTyt
+school.mos.ru##button._2Hz0dMzEnbunKqp2jJNVLf:nth-of-type(6)
+school.mos.ru##button._2Hz0dMzEnbunKqp2jJNVLf:nth-of-type(7)
+school.mos.ru##button._2Hz0dMzEnbunKqp2jJNVLf:nth-of-type(5)
+school.mos.ru##._1i0-egeaEMJUGmPYvd967q
+school.mos.ru##.diary-emotion-cache-1i8n7e-root-isActive
+school.mos.ru##button.diary-emotion-cache-fhmyls-root.MuiButton-colorPrimary.MuiButton-textSizeMedium.MuiButton-sizeMedium.MuiButton-textPrimary.MuiButton-text.MuiButton-root.MuiButtonBase-root:nth-of-type(4)
