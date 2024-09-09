@@ -7,8 +7,6 @@
 // @match        https://school.mos.ru/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mos.ru
 // @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/507201/mos-ru-theme.user.js
-// @updateURL https://update.greasyfork.org/scripts/507201/mos-ru-theme.meta.js
 // ==/UserScript==
 
 // Оптимизация под смартфон
