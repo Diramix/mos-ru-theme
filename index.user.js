@@ -7,6 +7,8 @@
 // @match        https://school.mos.ru/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mos.ru
 // @grant        none
+// @downloadURL https://update.greasyfork.org/scripts/507201/mos-ru-theme.user.js
+// @updateURL https://update.greasyfork.org/scripts/507201/mos-ru-theme.meta.js
 // ==/UserScript==
 
 // Оптимизация под смартфон
@@ -94,6 +96,17 @@ setInterval(function() {
   images.forEach(function(img) {
     if (img.src === 'https://school.mos.ru/diary/uikit/assets/images/44ae9ed513f79fcad9ab91f6041bd5c3.png') {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/assets/ne-udalos-zagruzit.gif?raw=true';
+    }
+  });
+}, 50);
+
+// Что-то пошло не так
+setInterval(function() {
+  const images = document.querySelectorAll('img');
+
+  images.forEach(function(img) {
+    if (img.src === 'https://school.mos.ru/diary/mfSchedule/assets/images/c257b09fba1ed91650680dbf2caacd1b.png') {
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/assets/chto-to-poshlo-ne-tak.jpg?raw=true';
     }
   });
 }, 50);
