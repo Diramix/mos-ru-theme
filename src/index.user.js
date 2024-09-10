@@ -70,11 +70,10 @@ setInterval(function() {
 
   images.forEach(function(img) {
     if (img.src === 'https://school.mos.ru/diary/assets/images/62c5be8664724f76f324b47945ca9016.png') {
-      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/assets/urokov-net.jpg?raw=true';
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/urokov-net.jpg?raw=true';
     }
   });
 }, 50);
-
 
 // Здесь пока нет данных
 setInterval(function() {
@@ -82,7 +81,7 @@ setInterval(function() {
 
   images.forEach(function(img) {
     if (img.src === 'https://school.mos.ru/diary/uikit/assets/images/ad064cd33924e352a98e503230a7f66e.png') {
-      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/assets/net-dannih.png?raw=true';
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/net-dannih.png?raw=true';
     }
   });
 }, 50);
@@ -93,7 +92,7 @@ setInterval(function() {
 
   images.forEach(function(img) {
     if (img.src === 'https://school.mos.ru/diary/uikit/assets/images/44ae9ed513f79fcad9ab91f6041bd5c3.png') {
-      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/assets/ne-udalos-zagruzit.gif?raw=true';
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/ne-udalos-zagruzit.gif?raw=true';
     }
   });
 }, 50);
@@ -104,7 +103,7 @@ setInterval(function() {
 
   images.forEach(function(img) {
     if (img.src === 'https://school.mos.ru/diary/mfSchedule/assets/images/c257b09fba1ed91650680dbf2caacd1b.png') {
-      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/assets/chto-to-poshlo-ne-tak.jpg?raw=true';
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/chto-to-poshlo-ne-tak.jpg?raw=true';
     }
   });
 }, 50);
