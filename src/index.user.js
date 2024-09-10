@@ -62,7 +62,7 @@ setInterval(() => {
       element.textContent = 'mos-ru-theme';
     }
   });
-}, 50);
+}, 0);
 
 // Уроков нет
 setInterval(function() {
@@ -73,7 +73,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/urokov-net.jpg?raw=true';
     }
   });
-}, 50);
+}, 0);
 
 // Здесь пока нет данных
 setInterval(function() {
@@ -84,7 +84,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/net-dannih.png?raw=true';
     }
   });
-}, 50);
+}, 0);
 
 // Не удалось загрузить
 setInterval(function() {
@@ -95,7 +95,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/ne-udalos-zagruzit.gif?raw=true';
     }
   });
-}, 50);
+}, 0);
 
 // Что-то пошло не так
 setInterval(function() {
@@ -106,4 +106,15 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/chto-to-poshlo-ne-tak.jpg?raw=true';
     }
   });
-}, 50);
+}, 0);
+
+// Домашнее задание не задано
+setInterval(function() {
+  const images = document.querySelectorAll('img');
+
+  images.forEach(function(img) {
+    if (img.src === 'https://school.mos.ru/diary/mfLesson/assets/images/3bae4c02e3e2ce94f40528b02252c555.png') {
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/domashnee-zadanie-ne-zadano.png?raw=true';
+    }
+  });
+}, 0);
