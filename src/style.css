@@ -8,8 +8,6 @@
     display: none;
 }
 
-.diary-emotion-cache-jgaip4,
-.diary-emotion-cache-t784qc,
 .diary-emotion-cache-65w3dh,
 .diary-emotion-cache-1k4rkhd,
 .diary-emotion-cache-1y2u99y,
@@ -61,7 +59,18 @@
 .diary-emotion-cache-d0iipu,
 .diary-emotion-cache-1bxwasq,
 .diary-emotion-cache-tnq82l,
-.diary-emotion-cache-ec13e4{
+.diary-emotion-cache-ec13e4,
+.diary-emotion-cache-q3jqwq-root-timeLine,
+.diary-emotion-cache-1vcbd72-rootWeek,
+.diary-emotion-cache-ucorbh-root,
+.diary-emotion-cache-1loyruy-root,
+.diary-emotion-cache-1vc0qdn-gridTitle,
+.diary-emotion-cache-1ufzals-gridTitle0,
+.diary-emotion-cache-1orbyqd-firstLine,
+.diary-emotion-cache-1k8tin2,
+.diary-emotion-cache-rwae6v,
+.diary-emotion-cache-3s0bte,
+.diary-emotion-cache-1b6cmb5{
     background-color: 0;
     background: #0005;
 }
@@ -77,7 +86,8 @@
 .diary-emotion-cache-1y1fyzn-listItem-selectedListItem-listItem-selectedListItem:hover,
 .diary-emotion-cache-sy8d59:hover,
 .diary-emotion-cache-10xvo28-root:hover,
-.diary-emotion-cache-ec13e4:hover{
+.diary-emotion-cache-ec13e4:hover,
+.diary-emotion-cache-1b6cmb5:hover{
     background-color: 0;
     background: #0008;
 }
@@ -99,6 +109,13 @@
 .diary-emotion-cache-3gp2rc-week{
     background: #000;
     border-width: 0;
+}
+
+.diary-emotion-cache-q3jqwq-root-timeLine,
+.diary-emotion-cache-1loyruy-root{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #E19F05
 }
 
 .diary-emotion-cache-tgdr7k-root{
@@ -154,7 +171,8 @@
 .diary-emotion-cache-tvt58a,
 .diary-emotion-cache-szk9lp-listWrapper,
 .diary-emotion-cache-16rp536,
-.diary-emotion-cache-16rp536:hover{
+.diary-emotion-cache-16rp536:hover,
+.diary-emotion-cache-dxpxra{
     background: 0;
     border-width: 0;
 }
@@ -176,7 +194,7 @@
 
 .diary-emotion-cache-1avfqwp-root {
     background: 0;
-    background-image: url("https://i.pinimg.com/originals/ff/7a/91/ff7a91717dbf65ab2f5aec5ea047d7a4.jpg");
+    background-image: url(https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/background.jpg?raw=true);
     background-size: cover;
     background-position: center;
 }
