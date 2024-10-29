@@ -1,3 +1,4 @@
+![изображение](https://github.com/user-attachments/assets/5c9ae11e-2c4f-4571-9070-44e6c76404f3)
 ![License](https://img.shields.io/github/license/johnturner4004/readme-generator.svg?style=for-the-badge)
 ## Описание
 1. **Элегантный и современный дизайн**  
