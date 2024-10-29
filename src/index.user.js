@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         mos-ru-theme
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      2024-10-30
 // @description  school.mos.ru crack
 // @author       Diramix
 // @match        https://school.mos.ru/*
+// @match        https://uchebnik.mos.ru/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mos.ru
 // @grant        none
 // ==/UserScript==
@@ -118,3 +119,27 @@ setInterval(function() {
     }
   });
 }, 0);
+
+// unknown.fefad
+setInterval(function() {
+  const images = document.querySelectorAll('img');
+
+  images.forEach(function(img) {
+    if (img.src === 'https://uchebnik.mos.ru/exam/img/unknown.fefad.png') {
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/unknown.fefad.png?raw=true';
+    }
+  });
+}, 0);
+
+// Фон ошибки Лайта Ягами
+setInterval(() => {
+    const element = document.querySelector('.css-1m9z75n');
+    if (element) {
+        element.textContent = "Произошла ошибка,\nно мы уже записали вас!";
+    }
+
+    const element2 = document.querySelector('.css-1d4xwuv');
+    if (element2) {
+        element2.textContent = "\nПриносим извинения за неудобства! Попробуйте\nобновить страницу или подождите немного.\n\nВ человеческом обществе лишь немногие люди заслуживают того,\nчтобы им полностью доверяли. - © Лайт Ягами";
+    }
+}, 1000);
