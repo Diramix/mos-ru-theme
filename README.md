@@ -13,6 +13,11 @@
 4. **Эстетика и функциональность**  
    Идеальное сочетание красоты и удобства для ежедневной учебной работы.
 
+## Установка
+1. Скачайте 3 расширения ([Dark Reader](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=ru), [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=ru) и [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru))
+2. Нажмите на 2 кнопки снизу для установки темы и скрипта для неё.
+3. Готово! Открывайте МЭШ и учите уроки!
+
 <div align="center">
   <a href="https://userstyles.world/style/18003/mos-ru-theme" class="image-button">
     <img width="400" src="https://github.com/Diramix/mos-ru-theme/blob/main/doc/download_button.png?raw=true" alt="Install Button">
