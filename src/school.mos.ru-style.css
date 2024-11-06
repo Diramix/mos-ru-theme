@@ -1,111 +1,4 @@
-
-}
-
-._2flJquhj8pd5N4jrWgXxrF {
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
-.diary-emotion-cache-1mqn4bh-container{
-    position: fixed;
-    background: #0008;
-    border-radius: 0px 0px 30px 30px;
-    left: 0;
-    right: 0;
-    z-index: 10;
-}
-
-.diary-emotion-cache-10kh96k,
-.diary-emotion-cache-zqw19v-wrapper{
-    border-radius: 10px 10px 0px 0px;
-    padding: 0px 10px 0px 10px
-}
-
-.diary-emotion-cache-1699b2g-wrapper,
-.diary-emotion-cache-4ylwtt,
-.diary-emotion-cache-u7pk0l,
-.diary-emotion-cache-mi8r7x,
-.diary-emotion-cache-1i8n7e-root-isActive,
-.diary-emotion-cache-13agewo-root,
-.diary-emotion-cache-xtqwjo,
-.diary-emotion-cache-1yfkn84,
-.diary-emotion-cache-1f6rv3l-buttonToggle:hover,
-.diary-emotion-cache-u7pk0l:hover,
-.diary-emotion-cache-mi8r7x:hover,
-.diary-emotion-cache-th4zjy-subMenu,
-.diary-emotion-cache-112lbja,
-.diary-emotion-cache-18egq7l-ratingWrapper-loser,
-.diary-emotion-cache-ye5vh7-subjectWrapper:hover,
-.diary-emotion-cache-96y5m-place,
-.diary-emotion-cache-1v6yaau,
-.diary-emotion-cache-tvt58a,
-.diary-emotion-cache-szk9lp-listWrapper,
-.diary-emotion-cache-16rp536,
-.diary-emotion-cache-16rp536:hover,
-.diary-emotion-cache-dxpxra{
-    background: 0;
-    border-width: 0;
-}
-
-.diary-emotion-cache-112lbja:hover{
-    background: #0005;
-    border-width: 0;
-}
-
-._2Hz0dMzEnbunKqp2jJNVLf:hover,
-._2oLsJ0G_Y3BBW0m9lqC1ES:hover{
-    background: #00f3;
-}
-
-.diary-emotion-cache-umpxcs-notationBlock,
-.diary-emotion-cache-ycst3p-arrowDownIcon{
-    background: 0;
-}
-
-.diary-emotion-cache-1avfqwp-root {
-    background: 0;
-    background-image: url(https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/background.jpg?raw=true);
-    background-size: cover;
-    background-position: center;
-}
-
-._1Rc6ggAGWD8XTtO0cpqLZm {
-    filter: invert(100%) contrast(500%);
-}
-
-._2flJquhj8pd5N4jrWgXxrF,
-.diary-emotion-cache-4lre7b-root-timeLine,
-.diary-emotion-cache-g87qjg-header,
-.diary-emotion-cache-1jpmz2n-root,
-.diary-emotion-cache-q3qvjj-yearlyCardWrapper,
-.diary-emotion-cache-1kdto6w{
-    background-color: 0;
-    background: #0005;
-}
-
-.diary-emotion-cache-1jiga8l-dateComponent,
-.diary-emotion-cache-nmkjrq-dateComponent,
-.diary-emotion-cache-187nkvf-dateComponent,
-.diary-emotion-cache-y149zs-dateComponent,
-.diary-emotion-cache-1247a04-dateComponent,
-.diary-emotion-cache-11z1877-dateComponent,
-.diary-emotion-cache-1rorn9q-dateComponent,
-.diary-emotion-cache-1alayx7-dateComponent,
-.diary-emotion-cache-1gnx3ta-dateComponent{
-    background: 0;
-    backdrop-filter: invert(100%) brightness(0.2);
-}
-
-._2flJquhj8pd5N4jrWgXxrF {
-    background: #0008
-}
-
-.diary-emotion-cache-ys16np-wrapper,
-.diary-emotion-cache-10kh96k{
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
-}._1exDEpPt8fdB0LcgwRBCGp,
+._1exDEpPt8fdB0LcgwRBCGp,
 ._39kZUq4rPycYq0oCOeUqre,
 ._38GMaLW1298wJ86sPT9H2U,
 .diary-emotion-cache-1fud8t9-indicator,
@@ -345,4 +238,21 @@
 .diary-emotion-cache-10kh96k{
     backdrop-filter: blur(20px);
     border-radius: 10px;
+}
+
+.CollapseBtn {
+    position: absolute;
+    left: 5px;
+    margin-top: -8px;
+    background: 0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 15px;
+}
+
+.CollapseBtn:hover {
+    background-color: #0008;
 }
