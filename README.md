@@ -4,14 +4,14 @@
 1. **Элегантный и современный дизайн**  
    Преображает интерфейс платформы school.mos.ru в стильный и удобный инструмент для учебы.
 
-2. **Улучшение восприятия информации**  
-   Яркий, но ненавязчивый дизайн помогает сосредоточиться на учебных материалах.
+2. **Collapse Button**  
+   Добавляет кнопку которая сворачивает/разворачивает расписание.
+<details>
+   <summary>Скриншот</summary>
 
-3. **Полная адаптация для всех устройств**  
-   Тема идеально подстраивается под любой размер экрана, делая использование сайта комфортным на любом устройстве.
+   ![image](https://github.com/user-attachments/assets/4525ad4e-b1cc-4a87-9344-6e6b1e04b3d5)
 
-4. **Эстетика и функциональность**  
-   Идеальное сочетание красоты и удобства для ежедневной учебной работы.
+</details>
 
 ## Установка
 1. Скачайте 3 расширения ([Dark Reader](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=ru), [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=ru) и [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru))
