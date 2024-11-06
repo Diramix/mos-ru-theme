@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         mos-ru-theme
 // @namespace    http://tampermonkey.net/
-// @version      2024-10-30
+// @version      2024-11-06
 // @description  school.mos.ru crack
 // @author       Diramix
 // @match        https://school.mos.ru/*
