@@ -143,3 +143,27 @@ setInterval(() => {
         element2.textContent = "\nПриносим извинения за неудобства! Попробуйте\nобновить страницу или подождите немного.\n\nВ человеческом обществе лишь немногие люди заслуживают того,\nчтобы им полностью доверяли. - © Лайт Ягами";
     }
 }, 1000);
+
+// ColapseButton
+setInterval(() => {
+    const parentElement = document.querySelector("html body div#root div.diary-emotion-cache-1uyqs5e-wrapper main div.diary-emotion-cache-1avfqwp-root section.diary-emotion-cache-zqw19v-wrapper div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-oavk2q-container div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-1we2gtg-root div.diary-emotion-cache-ys16np-wrapper div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-g87qjg-header div.diary-emotion-cache-1ichvsz-subHeader div.diary-emotion-cache-ypebyi-timeScale");
+
+    if (parentElement && !document.querySelector(".CollapseBtn")) {
+        const button = document.createElement("button");
+        button.classList.add("CollapseBtn");
+        button.innerText = "Свернуть";
+
+        button.addEventListener("click", () => {
+            const elements = document.querySelectorAll(".diary-emotion-cache-fr9wdn-scheduleBlockInfoBadges, .diary-emotion-cache-1f6hwic-wrapper");
+            const areHidden = Array.from(elements).every(el => el.style.display === "none");
+
+            elements.forEach(el => {
+                el.style.display = areHidden ? "" : "none";
+            });
+
+            button.innerText = areHidden ? "Свернуть" : "Развернуть";
+        });
+
+        parentElement.appendChild(button);
+    }
+}, 1000);
