@@ -240,6 +240,10 @@
     border-radius: 10px;
 }
 
+._1Rc6ggAGWD8XTtO0cpqLZm * {
+    filter: brightness(0.0);
+}
+
 .CollapseBtn {
     position: absolute;
     left: 5px;
