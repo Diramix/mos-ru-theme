@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         mos-ru-theme
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-06
+// @version      2024-11-07
 // @description  school.mos.ru crack
 // @author       Diramix
 // @match        https://school.mos.ru/*
@@ -146,24 +146,36 @@ setInterval(() => {
 
 // ColapseButton
 setInterval(() => {
-    const parentElement = document.querySelector("html body div#root div.diary-emotion-cache-1uyqs5e-wrapper main div.diary-emotion-cache-1avfqwp-root section.diary-emotion-cache-zqw19v-wrapper div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-oavk2q-container div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-1we2gtg-root div.diary-emotion-cache-ys16np-wrapper div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-g87qjg-header div.diary-emotion-cache-1ichvsz-subHeader div.diary-emotion-cache-ypebyi-timeScale");
+    const containerElement = document.querySelector("html body div#root div.diary-emotion-cache-1uyqs5e-wrapper main div.diary-emotion-cache-1avfqwp-root section.diary-emotion-cache-zqw19v-wrapper div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-oavk2q-container div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-1we2gtg-root div.diary-emotion-cache-ys16np-wrapper div.MuiGrid-root.MuiGrid-container.diary-emotion-cache-g87qjg-header div.diary-emotion-cache-1ichvsz-subHeader div.diary-emotion-cache-ypebyi-timeScale");
 
-    if (parentElement && !document.querySelector(".CollapseBtn")) {
-        const button = document.createElement("button");
-        button.classList.add("CollapseBtn");
-        button.innerText = "Свернуть";
+    if (containerElement && !document.querySelector(".CollapseBtn")) {
+        const toggleButton = document.createElement("button");
+        toggleButton.classList.add("CollapseBtn");
+        toggleButton.innerText = "Свернуть";
+        let isHidden = false;
 
-        button.addEventListener("click", () => {
-            const elements = document.querySelectorAll(".diary-emotion-cache-fr9wdn-scheduleBlockInfoBadges, .diary-emotion-cache-1f6hwic-wrapper");
-            const areHidden = Array.from(elements).every(el => el.style.display === "none");
+        toggleButton.addEventListener("click", () => {
+            const itemsToToggle = document.querySelectorAll(".diary-emotion-cache-fr9wdn-scheduleBlockInfoBadges, .diary-emotion-cache-1f6hwic-wrapper");
+            isHidden = !isHidden;
 
-            elements.forEach(el => {
-                el.style.display = areHidden ? "" : "none";
+            itemsToToggle.forEach(item => {
+                item.style.display = isHidden ? "none" : "";
             });
 
-            button.innerText = areHidden ? "Свернуть" : "Развернуть";
+            toggleButton.innerText = isHidden ? "Развернуть" : "Свернуть";
         });
 
-        parentElement.appendChild(button);
+        setInterval(() => {
+            const itemsToToggle = document.querySelectorAll(".diary-emotion-cache-fr9wdn-scheduleBlockInfoBadges, .diary-emotion-cache-1f6hwic-wrapper");
+            const isCorrectState = Array.from(itemsToToggle).every(item => item.style.display === (isHidden ? "none" : ""));
+
+            if (!isCorrectState) {
+                itemsToToggle.forEach(item => {
+                    item.style.display = isHidden ? "none" : "";
+                });
+            }
+        }, 500);
+
+        containerElement.appendChild(toggleButton);
     }
 }, 1000);
