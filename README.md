@@ -1,5 +1,4 @@
-![изображение](https://github.com/user-attachments/assets/5c9ae11e-2c4f-4571-9070-44e6c76404f3)
-![License](https://img.shields.io/github/license/johnturner4004/readme-generator.svg?style=for-the-badge)
+![banner](https://github.com/Diramix/mos-ru-theme/blob/main/doc/banner.png?raw=true)
 ## Описание
 1. **Элегантный и современный дизайн**  
    Преображает интерфейс платформы school.mos.ru в стильный и удобный инструмент для учебы.
@@ -29,8 +28,9 @@
 </div>
 
 ## Скриншоты
-![image](https://github.com/user-attachments/assets/637ed77a-4314-44c1-9568-04b3a999cdbe)
-![изображение](https://github.com/user-attachments/assets/c1788b6b-a5e1-481f-846a-7f7f3a6fd2df)
-![404](https://github.com/user-attachments/assets/a13b0824-c463-41c5-a4be-5c3623459d53)
+![1](https://github.com/user-attachments/assets/5c9ae11e-2c4f-4571-9070-44e6c76404f3)
+![2](https://github.com/user-attachments/assets/637ed77a-4314-44c1-9568-04b3a999cdbe)
+![3](https://github.com/user-attachments/assets/c1788b6b-a5e1-481f-846a-7f7f3a6fd2df)
+![4](https://github.com/user-attachments/assets/a13b0824-c463-41c5-a4be-5c3623459d53)
 
 Тема не предназначена для публичного использования, поэтому на вашем устройстве могут возникать с ней проблемы. Однако, использование темы не запрещено, и вы можете продолжать ей пользоваться по своему усмотрению.
