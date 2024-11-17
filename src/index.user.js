@@ -6,7 +6,7 @@
 // @author       Diramix
 // @match        https://school.mos.ru/*
 // @match        https://uchebnik.mos.ru/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=mos.ru
+// @icon         https://github.com/Diramix/mos-ru-theme/blob/main/src/icon.png?raw=true
 // @grant        none
 // ==/UserScript==
 
