@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         mos-ru-theme
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-07
-// @description  school.mos.ru crack
+// @version      2024-11-17
+// @description  school.mos.ru
 // @author       Diramix
 // @match        https://school.mos.ru/*
 // @match        https://uchebnik.mos.ru/*
@@ -63,7 +63,7 @@ setInterval(() => {
       element.textContent = 'mos-ru-theme';
     }
   });
-}, 0);
+}, 1000);
 
 // Уроков нет
 setInterval(function() {
@@ -74,7 +74,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/urokov-net.jpg?raw=true';
     }
   });
-}, 0);
+}, 1000);
 
 // Здесь пока нет данных
 setInterval(function() {
@@ -85,7 +85,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/net-dannih.png?raw=true';
     }
   });
-}, 0);
+}, 1000);
 
 // Не удалось загрузить
 setInterval(function() {
@@ -96,7 +96,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/ne-udalos-zagruzit.gif?raw=true';
     }
   });
-}, 0);
+}, 1000);
 
 // Что-то пошло не так
 setInterval(function() {
@@ -107,7 +107,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/chto-to-poshlo-ne-tak.jpg?raw=true';
     }
   });
-}, 0);
+}, 1000);
 
 // Домашнее задание не задано
 setInterval(function() {
@@ -118,7 +118,7 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/domashnee-zadanie-ne-zadano.png?raw=true';
     }
   });
-}, 0);
+}, 1000);
 
 // unknown.fefad
 setInterval(function() {
@@ -129,7 +129,18 @@ setInterval(function() {
       img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/unknown.fefad.png?raw=true';
     }
   });
-}, 0);
+}, 1000);
+
+// 404
+setInterval(function() {
+  const images = document.querySelectorAll('img');
+
+  images.forEach(function(img) {
+    if (img.src === 'https://school.mos.ru/diary/assets/images/a77cbf786a092a0b1057d2f5977d5ba6.png') {
+      img.src = 'https://github.com/Diramix/mos-ru-theme/blob/main/src/assets/404.png?raw=true';
+    }
+  });
+}, 1000);
 
 // Фон ошибки Лайта Ягами
 setInterval(() => {
