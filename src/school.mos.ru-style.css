@@ -4,7 +4,8 @@
 .diary-emotion-cache-1fud8t9-indicator,
 ._1i0-egeaEMJUGmPYvd967q,
 .diary-emotion-cache-xqom39-iconQuestion,
-.diary-emotion-cache-1b0s84j{
+.diary-emotion-cache-1b0s84j,
+.diary-emotion-cache-4lre7b-root-timeLine:before{
     display: none;
 }
 
@@ -74,7 +75,20 @@
 .diary-emotion-cache-1ycryg1,
 .diary-emotion-cache-1p825eh,
 .T9Fo4I7nyBAwO3pQ6Nx1,
-.jxILb6lc6cOTJR_ibQi2{
+.jxILb6lc6cOTJR_ibQi2,
+.diary-emotion-cache-nl8na2-homeworkCard,
+.diary-emotion-cache-qose6o-badgeContainer,
+.diary-emotion-cache-1h7o361-header,
+.diary-emotion-cache-r0xtfl-root-active-desktop,
+.diary-emotion-cache-fbhwr6-homeworkItemBlock:hover,
+.diary-emotion-cache-1bqaj4-root,
+.diary-emotion-cache-14ix91k-header,
+.diary-emotion-cache-1kybrbt-subjectMarksWrapper,
+.diary-emotion-cache-18sgyo6,
+.diary-emotion-cache-1bta7ux-header,
+.diary-emotion-cache-kugce0-subjectCard,
+.diary-emotion-cache-r5uvb-root,
+.diary-emotion-cache-10e8ene-root{
     background-color: 0;
     background: #0005;
 }
@@ -91,7 +105,12 @@
 .diary-emotion-cache-sy8d59:hover,
 .diary-emotion-cache-10xvo28-root:hover,
 .diary-emotion-cache-ec13e4:hover,
-.diary-emotion-cache-1b6cmb5:hover{
+.diary-emotion-cache-1b6cmb5:hover,
+.diary-emotion-cache-r0xtfl-root-active-desktop:hover,
+.diary-emotion-cache-18sgyo6:hover,
+.diary-emotion-cache-kugce0-subjectCard:hover,
+.diary-emotion-cache-1bo36ky-root-collapsed:hover,
+.diary-emotion-cache-10e8ene-root:hover{
     background-color: 0;
     background: #0008;
 }
@@ -176,7 +195,9 @@
 .diary-emotion-cache-szk9lp-listWrapper,
 .diary-emotion-cache-16rp536,
 .diary-emotion-cache-16rp536:hover,
-.diary-emotion-cache-dxpxra{
+.diary-emotion-cache-dxpxra,
+.diary-emotion-cache-fbhwr6-homeworkItemBlock,
+.diary-emotion-cache-1kb7jpf-root{
     background: 0;
     border-width: 0;
 }
@@ -212,7 +233,7 @@
 .diary-emotion-cache-g87qjg-header,
 .diary-emotion-cache-1jpmz2n-root,
 .diary-emotion-cache-q3qvjj-yearlyCardWrapper,
-.diary-emotion-cache-1kdto6w{
+.diary-emotion-cache-1kdto6w {
     background-color: 0;
     background: #0005;
 }
@@ -225,7 +246,7 @@
 .diary-emotion-cache-11z1877-dateComponent,
 .diary-emotion-cache-1rorn9q-dateComponent,
 .diary-emotion-cache-1alayx7-dateComponent,
-.diary-emotion-cache-1gnx3ta-dateComponent{
+.diary-emotion-cache-1gnx3ta-dateComponent {
     background: 0;
     backdrop-filter: invert(100%) brightness(0.2);
 }
@@ -244,6 +265,10 @@
     filter: brightness(0.0);
 }
 
+.diary-emotion-cache-15yig6o-root * {
+    color: #fff;
+}
+ 
 .CollapseBtn {
     position: absolute;
     left: 5px;
